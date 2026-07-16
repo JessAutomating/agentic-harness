@@ -132,10 +132,9 @@ The harness is intentionally small and copy-paste friendly:
 3. Adopt `AUTONOMOUS_LOOP.md` when a task is bigger than one context window.
 4. Read `PRINCIPLES.md` and `PATTERNS.md`, then start banking your own. The principles that matter most are the ones you earn.
 
-## Field notes and tools
+## Field notes
 
 
-- [`tools/mission-control/`](tools/mission-control/README.md) - see all your agent sessions working, live, in one view.
 
 ---
 
