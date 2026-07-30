@@ -131,7 +131,7 @@ The full list lives in [`PRINCIPLES.md`](PRINCIPLES.md). The load-bearing ones:
 
 This is not a thought experiment. The harness is how I build and operate, solo:
 
-- **CullPilot** and **Local Transcriber**: local-first, on-device AI desktop tools. [Local Transcriber »](https://github.com/JessAutomating/local-transcriber)
+- **Local Transcriber**: a local-first, on-device AI desktop tool that turns any audio or video into text on your own machine. [Local Transcriber »](https://github.com/JessAutomating/local-transcriber)
 - **Production automations for live clients**: operations command centers, growth stacks, and lead-generation pipelines that systematize whole workflows, not just write code.
 
 The products are private and proprietary. The harness that builds them is this repo.
