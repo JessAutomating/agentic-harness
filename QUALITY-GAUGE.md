@@ -46,7 +46,7 @@ Roughly one eighth of the published ecosystem average, and that average includes
 
 **The real result was four.** Four uses of `tempfile.mktemp()`, a function that hands back a predictable filename *without creating the file*, leaving a window where an attacker pre-creates that path as a symbolic link and redirects the write somewhere privileged. The worst instance sat in the undo engine, feeding an elevated PowerShell redirect: a privileged write to an attacker-choosable path, inside the feature the product's entire safety story rests on.
 
-An afternoon of read-only scanning found a privilege-escalation-class bug that fourteen review agents and eleven thousand tests had not.
+An afternoon of read-only scanning found a privilege-escalation-class bug that fourteen review agents and thousands of passing tests had not.
 
 **The transferable part is the triage, not the tool.** Raw scanner output is mostly noise, and a harness that says "run bandit" has not helped you. Sort by severity *and* confidence. Classify your accepted patterns once, with a written reason, so they stop generating debate: a repair tool runs subprocess on purpose, and those warnings are expected forever. Then hunt specifically for the classes that matter in your domain. Publish the triaged number, never the raw one.
 
