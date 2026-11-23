@@ -134,6 +134,8 @@ The full list lives in [`PRINCIPLES.md`](PRINCIPLES.md). The load-bearing ones:
 
 This is not a thought experiment. The harness is how I build and operate, solo:
 
+- **A private client-memory platform for coaches**: live, with AI extraction that cites its sources and never invents.
+- **A local lead-intelligence command center**: a fully local LLM hub and dashboard; answer quality lifted from 61.5 percent to 99.0 percent (self-measured) by a ground-truth evaluation harness.
 - **Local Transcriber**: a local-first, on-device AI desktop tool that turns any audio or video into text on your own machine. [Local Transcriber »](https://github.com/JessAutomating/local-transcriber)
 - **Self-hosted operations mesh**: a local, self-hosted automation mesh that runs my own back office, with every AI step on a self-hosted local model, so there is no cloud inference cost. A billing sentinel classifies vendor payment problems to a strict schema with an audit trail, a support-draft assistant grounds each reply on the live product version and passes a lint gate before it can ever become a draft, and a deterministic release watcher verifies each release with no model in the loop. Every agent files into a local task queue and drafts for human review, never auto-sends.
 - **Production automations for live clients**: operations command centers, growth stacks, and lead-generation pipelines that systematize whole workflows, not just write code.

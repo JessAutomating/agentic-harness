@@ -48,7 +48,7 @@ Roughly one eighth of the published ecosystem average, and that average includes
 
 An afternoon of read-only scanning found a privilege-escalation-class bug that fourteen review agents and thousands of passing tests had not.
 
-**The transferable part is the triage, not the tool.** Raw scanner output is mostly noise, and a harness that says "run bandit" has not helped you. Sort by severity *and* confidence. Classify your accepted patterns once, with a written reason, so they stop generating debate: a repair tool runs subprocess on purpose, and those warnings are expected forever. Then hunt specifically for the classes that matter in your domain. Publish the triaged number, never the raw one.
+**The transferable part is the triage, not the tool.** Raw scanner output is mostly noise, and a harness that says "run bandit" has not helped you. Sort by severity *and* confidence. Classify your accepted patterns once, with a written reason, so they stop generating debate: a system tool runs subprocess on purpose, and those warnings are expected forever. Then hunt specifically for the classes that matter in your domain. Publish the triaged number, never the raw one.
 
 ---
 

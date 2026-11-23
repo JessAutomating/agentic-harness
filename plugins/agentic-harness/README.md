@@ -2,7 +2,7 @@
 
 The installable form of [Jesse Jolly's](https://jessejolly.com) agentic engineering harness: the control system around coding agents that ships and operates production software. Durable context, one orchestrator plus sequential sub-agents, and verify-against-canonical-source gates, dropped straight into your Claude Code.
 
-Built by **Jesse Jolly**. The harness is open source under MIT.
+Built by **Jesse Jolly**. The products built with this harness are private; the harness is open source under MIT.
 
 ## Install
 

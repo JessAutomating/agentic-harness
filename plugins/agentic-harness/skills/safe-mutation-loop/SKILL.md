@@ -3,7 +3,7 @@ name: safe-mutation-loop
 description: The discipline for an agent whose actions mutate real state (a user's machine, a production database, live configuration, files that matter). Every mutation runs the same loop, gate, snapshot, execute, verify with evidence, and carries an honest undo answer and an autonomy tier. Use when building or reviewing any agent, automation, or fixer that changes state someone would miss.
 ---
 
-Reading is free; mutating is a promise. An agent that changes real state owes the user four things for every change: a reason it was allowed, a way back, proof of what happened, and honesty about which of those it cannot provide. This skill is that contract as a loop. It was earned operating an agent product that repairs real machines, where a silent failure in any step became a user's bad day.
+Reading is free; mutating is a promise. An agent that changes real state owes the user four things for every change: a reason it was allowed, a way back, proof of what happened, and honesty about which of those it cannot provide. This skill is that contract as a loop. It was earned operating an agent product that changes real machines, where a silent failure in any step became a user's bad day.
 
 ## The loop
 
